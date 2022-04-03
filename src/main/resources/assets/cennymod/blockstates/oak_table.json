@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cennymod:block/oak_table"
+    },
+    "facing=east": {
+      "model": "cennymod:block/oak_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cennymod:block/oak_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cennymod:block/oak_table",
+      "y": 270
+    }
+  }
+}
