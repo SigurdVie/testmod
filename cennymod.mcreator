@@ -34,12 +34,22 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "fuckyouevan",
+      "files": [
+        "fase"
+      ],
+      "category": "neutral",
+      "subtitle": "Fuck You Even, Asshole!"
+    }
+  ],
   "language_map": {
     "en_us": {
       "entity.cennymod.jk": "JK",
       "block.cennymod.oak_table": "Oak Table",
       "item.cennymod.connor_murphy_spawn_egg": "Connor Murphy Spawn Egg",
+      "subtitles.fuckyouevan": "Fuck You Even, Asshole!",
       "entity.cennymod.connor_murphy": "Connor Murphy",
       "item.cennymod.jk_spawn_egg": "JK Spawn Egg"
     }
@@ -52,16 +62,17 @@
     "modid": "cennymod",
     "modName": "MrCennys Mod",
     "version": "1.0.0",
-    "author": "Sigurd Vie, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "author": "Even Hansen, Jared Kleinman",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "2020_03_20_very-specific-13970698",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.17.1",
+    "credits": "Amongus, imposter?",
     "modElementsPackage": "net.mcreator.cennymod",
     "lockBaseModFiles": false
   },

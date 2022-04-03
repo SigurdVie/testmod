@@ -1,0 +1,12 @@
+{
+  "fuckyouevan": {
+    "category": "neutral",
+    "subtitle": "subtitles.fuckyouevan",
+    "sounds": [
+      {
+        "name": "cennymod:fase",
+        "stream": false
+      }
+    ]
+  }
+}

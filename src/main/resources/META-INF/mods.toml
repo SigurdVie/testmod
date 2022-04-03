@@ -6,9 +6,10 @@ license="Academic Free License v3.0"
 modId="cennymod"
 version="1.0.0"
 displayName="MrCennys Mod"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Amongus, imposter?"
 displayURL="https://mcreator.net"
-authors="Sigurd Vie, MCreator"
+logoFile="logo.png"
+authors="Even Hansen, Jared Kleinman"
 
 [[dependencies.cennymod]]
     modId="minecraft"
