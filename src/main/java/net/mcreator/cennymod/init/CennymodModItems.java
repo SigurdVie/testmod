@@ -14,6 +14,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.cennymod.item.FunkyItem;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -27,6 +29,7 @@ public class CennymodModItems {
 	public static final Item JK = register(
 			new SpawnEggItem(CennymodModEntities.JK, -3407668, -16751002, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("jk_spawn_egg"));
+	public static final Item FUNKY = register(new FunkyItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

@@ -28,5 +28,15 @@
         "stream": false
       }
     ]
+  },
+  "abobous": {
+    "category": "neutral",
+    "subtitle": "subtitles.abobous",
+    "sounds": [
+      {
+        "name": "cennymod:yt5s.com-goin_viral_cut_song_from_dear_evan_hansen_-_will_roland-128kbps",
+        "stream": false
+      }
+    ]
   }
 }

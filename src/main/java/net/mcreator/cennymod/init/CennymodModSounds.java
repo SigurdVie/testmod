@@ -21,6 +21,7 @@ public class CennymodModSounds {
 		REGISTRY.put(new ResourceLocation("cennymod", "fuckyouevan"), new SoundEvent(new ResourceLocation("cennymod", "fuckyouevan")));
 		REGISTRY.put(new ResourceLocation("cennymod", "ohmygod"), new SoundEvent(new ResourceLocation("cennymod", "ohmygod")));
 		REGISTRY.put(new ResourceLocation("cennymod", "kinky"), new SoundEvent(new ResourceLocation("cennymod", "kinky")));
+		REGISTRY.put(new ResourceLocation("cennymod", "abobous"), new SoundEvent(new ResourceLocation("cennymod", "abobous")));
 	}
 
 	@SubscribeEvent
