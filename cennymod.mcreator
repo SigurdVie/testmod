@@ -17,43 +17,31 @@
       "registry_name": "rec_oak_table"
     },
     {
-      "name": "OakTableBlockValidPlacementCondition",
-      "type": "procedure",
+      "name": "ConnorMurphy",
+      "type": "livingentity",
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "oak_table_block_valid_placement_condition",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "connor_murphy"
+    },
+    {
+      "name": "JK",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jk"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.cennymod.oak_table": "Oak Table"
+      "entity.cennymod.jk": "JK",
+      "block.cennymod.oak_table": "Oak Table",
+      "item.cennymod.connor_murphy_spawn_egg": "Connor Murphy Spawn Egg",
+      "entity.cennymod.connor_murphy": "Connor Murphy",
+      "item.cennymod.jk_spawn_egg": "JK Spawn Egg"
     }
   },
   "foldersRoot": {

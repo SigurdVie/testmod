@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
@@ -20,6 +21,12 @@ import java.util.ArrayList;
 public class CennymodModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
 	public static final Item OAK_TABLE = register(CennymodModBlocks.OAK_TABLE, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item CONNOR_MURPHY = register(
+			new SpawnEggItem(CennymodModEntities.CONNOR_MURPHY, -3394816, -26368, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("connor_murphy_spawn_egg"));
+	public static final Item JK = register(
+			new SpawnEggItem(CennymodModEntities.JK, -3407668, -16751002, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("jk_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
