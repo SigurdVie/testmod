@@ -19,6 +19,8 @@ public class CennymodModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
 		REGISTRY.put(new ResourceLocation("cennymod", "fuckyouevan"), new SoundEvent(new ResourceLocation("cennymod", "fuckyouevan")));
+		REGISTRY.put(new ResourceLocation("cennymod", "ohmygod"), new SoundEvent(new ResourceLocation("cennymod", "ohmygod")));
+		REGISTRY.put(new ResourceLocation("cennymod", "kinky"), new SoundEvent(new ResourceLocation("cennymod", "kinky")));
 	}
 
 	@SubscribeEvent

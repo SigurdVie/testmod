@@ -8,5 +8,25 @@
         "stream": false
       }
     ]
+  },
+  "ohmygod": {
+    "category": "neutral",
+    "subtitle": "subtitles.ohmygod",
+    "sounds": [
+      {
+        "name": "cennymod:rar",
+        "stream": false
+      }
+    ]
+  },
+  "kinky": {
+    "category": "neutral",
+    "subtitle": "subtitles.kinky",
+    "sounds": [
+      {
+        "name": "cennymod:keia",
+        "stream": false
+      }
+    ]
   }
 }
