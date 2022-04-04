@@ -16,6 +16,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.cennymod.entity.JKEntity;
 import net.mcreator.cennymod.entity.ConnorMurphyEntity;
+import net.mcreator.cennymod.entity.CmcmmcEntity;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -28,6 +29,9 @@ public class CennymodModEntities {
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ConnorMurphyEntity::new).sized(0.6f, 1.8f));
 	public static final EntityType<JKEntity> JK = register("jk", EntityType.Builder.<JKEntity>of(JKEntity::new, MobCategory.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(JKEntity::new).sized(0.6f, 1.8f));
+	public static final EntityType<CmcmmcEntity> CMCMMC = register("cmcmmc",
+			EntityType.Builder.<CmcmmcEntity>of(CmcmmcEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(CmcmmcEntity::new).sized(0.6f, 1.8f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
@@ -45,6 +49,7 @@ public class CennymodModEntities {
 		event.enqueueWork(() -> {
 			ConnorMurphyEntity.init();
 			JKEntity.init();
+			CmcmmcEntity.init();
 		});
 	}
 
@@ -52,5 +57,6 @@ public class CennymodModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(CONNOR_MURPHY, ConnorMurphyEntity.createAttributes().build());
 		event.put(JK, JKEntity.createAttributes().build());
+		event.put(CMCMMC, CmcmmcEntity.createAttributes().build());
 	}
 }

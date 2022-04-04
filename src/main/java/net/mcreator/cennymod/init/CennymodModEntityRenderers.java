@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.cennymod.client.renderer.JKRenderer;
 import net.mcreator.cennymod.client.renderer.ConnorMurphyRenderer;
+import net.mcreator.cennymod.client.renderer.CmcmmcRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class CennymodModEntityRenderers {
@@ -18,5 +19,6 @@ public class CennymodModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(CennymodModEntities.CONNOR_MURPHY, ConnorMurphyRenderer::new);
 		event.registerEntityRenderer(CennymodModEntities.JK, JKRenderer::new);
+		event.registerEntityRenderer(CennymodModEntities.CMCMMC, CmcmmcRenderer::new);
 	}
 }

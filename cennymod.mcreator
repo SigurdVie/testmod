@@ -47,6 +47,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "epplehagenskilt"
+    },
+    {
+      "name": "Cmcmmc",
+      "type": "livingentity",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmcmmc"
     }
   ],
   "variable_elements": [],
@@ -87,10 +95,12 @@
   "language_map": {
     "en_us": {
       "item.cennymod.funky.desc": "oijaDSHHUASOIHDAUISUHASUDHAISUOLHDIUASHD UHDALHSIdUHZSLDUHASIHD",
+      "entity.cennymod.cmcmmc": "Cow Extreme",
       "subtitles.ohmygod": "Oh My God",
       "block.cennymod.oak_table": "Oak Table",
       "subtitles.kinky": "[...] Kinky!",
       "subtitles.fuckyouevan": "Fuck You Even, Asshole!",
+      "item.cennymod.cmcmmc_spawn_egg": "Cow Extreme Spawn Egg",
       "block.cennymod.epplehagenskilt": "Epplehagenskilt",
       "entity.cennymod.jk": "JK",
       "item.cennymod.connor_murphy_spawn_egg": "Connor Murphy Spawn Egg",
@@ -109,6 +119,7 @@
     "modName": "MrCennys Mod",
     "version": "1.0.0",
     "author": "Even Hansen, Jared Kleinman",
+    "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

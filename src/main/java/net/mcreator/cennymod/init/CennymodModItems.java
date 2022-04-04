@@ -31,6 +31,9 @@ public class CennymodModItems {
 					.setRegistryName("jk_spawn_egg"));
 	public static final Item FUNKY = register(new FunkyItem());
 	public static final Item EPPLEHAGENSKILT = register(CennymodModBlocks.EPPLEHAGENSKILT, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item CMCMMC = register(
+			new SpawnEggItem(CennymodModEntities.CMCMMC, -16777216, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("cmcmmc_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
