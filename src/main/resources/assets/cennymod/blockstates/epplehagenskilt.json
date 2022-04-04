@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cennymod:block/epplehagenskilt"
+    },
+    "facing=east": {
+      "model": "cennymod:block/epplehagenskilt",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cennymod:block/epplehagenskilt",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cennymod:block/epplehagenskilt",
+      "y": 270
+    }
+  }
+}

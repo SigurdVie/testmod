@@ -12,8 +12,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.cennymod.block.UhBlock;
 import net.mcreator.cennymod.block.OakTableBlock;
+import net.mcreator.cennymod.block.EpplehagenskiltBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -22,7 +22,7 @@ import java.util.ArrayList;
 public class CennymodModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block OAK_TABLE = register(new OakTableBlock());
-	public static final Block UH = register(new UhBlock());
+	public static final Block EPPLEHAGENSKILT = register(new EpplehagenskiltBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -39,7 +39,7 @@ public class CennymodModBlocks {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			OakTableBlock.registerRenderLayer();
-			UhBlock.registerRenderLayer();
+			EpplehagenskiltBlock.registerRenderLayer();
 		}
 	}
 }

@@ -1,0 +1,12 @@
+{
+  "parent": "cennymod:custom/epplehagen",
+  "textures": {
+    "all": "cennymod:blocks/epplehagenmtekst",
+    "particle": "cennymod:blocks/epplehagenmtekst",
+    "0": "cennymod:blocks/epplehagen",
+    "1": "cennymod:blocks/epplehagenmtekst",
+    "2": "cennymod:blocks/awdawdw",
+    "3": "cennymod:blocks/oak_log_top",
+    "missing": "cennymod:blocks/oak_log_top"
+  }
+}

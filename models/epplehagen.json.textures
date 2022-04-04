@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "epplehagen",
+        "1": "epplehagenmtekst",
+        "2": "awdawdw",
+        "3": "oak_log_top",
+        "missing": "oak_log_top"
+      },
+      "name": "default"
+    }
+  }
+}
